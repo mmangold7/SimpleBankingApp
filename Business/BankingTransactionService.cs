@@ -8,11 +8,11 @@ namespace Business
 {
 	public class BankingTransactionService
     {
-	    private readonly BankingDataContext _context;
+		private readonly BankingDataContext _context;
 		
 		//dbcontext is injected via constructor
-	    public BankingTransactionService(BankingDataContext context)
-	    {
+		public BankingTransactionService(BankingDataContext context)
+		{
 		    _context = context;
 	    }
 
